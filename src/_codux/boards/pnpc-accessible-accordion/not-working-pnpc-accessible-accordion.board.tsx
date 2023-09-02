@@ -3,7 +3,7 @@ import { createBoard } from '@wixc3/react-board';
 import PnpcAccessibleAccordion from '../../../components/AccessibleAccordion/PnpcAccessibleAccordion';
 
 export default createBoard({
-    name: 'NotWorkingWithComposeFluentUiPnpcAccessibleAccordion',
+    name: 'WorkingWithComposeFluentUiPnpcAccessibleAccordion',
     Board: () => <PnpcAccessibleAccordion />,
     isSnippet: true,
 });
