@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { IconPicker } from '@pnp/spfx-controls-react';
 
 export interface NewComponentProps {
@@ -7,5 +8,5 @@ export interface NewComponentProps {
 
 export const NewComponent: React.FC<NewComponentProps> = ({ className = '' }) => (
     <div className={className}>
-        <IconPicker />NewComponent</div>
+        <IconPicker  onSave={null}/>NewComponent</div>
 );
