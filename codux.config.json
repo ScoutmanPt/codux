@@ -12,5 +12,11 @@
     "resolveUrls": false,
     "includePaths": [
         "src/**"
-    ]
+    ],
+    "resolve": {
+        "alias": {
+          "@ms/odsp-core-bundle": false
+        }
+      },
+    "boardGlobalSetup": "./src/_codux/board-global-setup.ts"
 }

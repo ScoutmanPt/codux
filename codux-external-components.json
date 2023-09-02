@@ -1,0 +1,48 @@
+[  
+ 
+    {
+        "name": "FluentUI Components",
+        "components": [
+            {
+                "filePath": "@fluentui/react",
+                "exportName": "IconButton",
+                "name": "Icon Button FUI"
+            }
+        ]
+    },{
+        "name": "PNP Components",
+        "components": [
+            {
+                "filePath": "@pnp/spfx-controls-react",
+                "exportName": "animatedDialog",
+                "name": "Animated Dialog PNP",
+                "icon": "https://pnp.github.io/sp-dev-fx-controls-react/assets/animatedDialog.svg"
+            },
+            {
+                "filePath": "@pnp/spfx-controls-react",
+                "exportName": "MonacoEditor",
+                "name": "MonacoEditor PNP",
+                "icon": "https://pnp.github.io/sp-dev-fx-controls-react/assets/monacoEditor.svg"
+            },
+            {
+                "filePath": "@pnp/spfx-controls-react",
+                "exportName": "DateTimePicker",
+                "name": "DateTimePicker PNP",
+                "icon": "https://pnp.github.io/sp-dev-fx-controls-react/assets/dateTimePicker.svg"
+            },
+            {
+                "filePath": "@pnp/spfx-controls-react",
+                "exportName": "IconPicker",
+                "name": "IconPicker PNP",
+                "icon": "https://pnp.github.io/sp-dev-fx-controls-react/assets/iconPicker.svg"
+            }
+           
+
+
+
+            
+           
+            
+        ]
+    }
+]  
