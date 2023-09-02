@@ -6,7 +6,12 @@ export interface NewComponentProps {
     className?: string;
 }
 
-export const NewComponent: React.FC<NewComponentProps> = ({ className = '' }) => (
+export const NewComponentNotWorking: React.FC<NewComponentProps> = ({ className = '' }) => (
     <div className={className}>
-        <IconPicker  onSave={null}/>NewComponent</div>
+        <IconPicker buttonLabel={'Icon'}
+            onChange={(iconName: string) => { "" }}
+            onSave={(iconName: string) => { "" }} />
+        
+        </div>
 );
+export default NewComponentNotWorking;
